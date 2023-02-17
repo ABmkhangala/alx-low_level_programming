@@ -1,20 +1,14 @@
 #include <stdio.h>
 /**
  * main - A program that prints the sixe of various computer types
- * Return: 0 (Success)
+ * Return: always 0 (Success)
 */
 int main(void)
 {
-	char a;
-	int b;
-	long int c;
-	long long int d;
-	float f;
-
-	printf("Size of a char: %lu bytes(S)\n", (unsigned long)sizeof(a));
-	printf("Size of an int: %lu bytes(S)\n", (unsigned long)sizeof(b));
-	printf("Size of a long int: %lu bytes(S)\n", (unsigned long)sizeof(c));
-	printf("Size of a long long: %lu bytes(S)\n", (unsigned long)sizeof(d));
-	printf("Size of a float: %lu bytes(S)\n", (unsigned long)sizeof(f));
+	printf("Size of a char: %d bytes(S)", sizeof(char));
+	printf("Size of an int: %d bytes(S)", sizeof(int));
+	printf("Size of a long int: %d bytes(S)", sizeof(long int));
+	printf("Size of a long long: %d bytes(S)", sizeof(long long int));
+	printf("Size of a float: %d bytes(S)", sizeof(float));
 	return (0);
 }
