@@ -7,11 +7,22 @@
  */
 int main(void)
 {
-	int ch;
-		for (ch = 'a'; ch <= 'Z'; ch++)
-			putchar(ch);
-		for (ch = 'A'; ch <= 'Z'; ch++)
-			putchar(ch);
-		putchar('\n');
-		return (0);
+	char c = 'a';
+
+	while (c <= 'Z')
+	{
+		putcha(c);
+		c++;
+	}
+
+	c = 'A';
+
+	while (c <= 'Z')
+	{
+		putchar(c);
+		c++;
+	}
+
+	putchar('\n');
+	return (0);
 }
