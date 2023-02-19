@@ -11,7 +11,7 @@ int main(void)
 
 	while (c <= 'Z')
 	{
-		putcha(c);
+		putchar(c);
 		c++;
 	}
 
