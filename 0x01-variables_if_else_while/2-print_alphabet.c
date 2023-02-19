@@ -1,11 +1,11 @@
-#include < stdio.h>
+#include <stdio.h>
 
 /**
- * main - prints the alphabet
+ * main-main functions
  *
  * Return: Always 0 (Success)
  */
-int main(void);
+int main(void)
 {
 	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
