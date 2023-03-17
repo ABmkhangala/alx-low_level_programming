@@ -9,12 +9,12 @@
  * Return: 0 if non-digit is found, 1 otherwise
  */
 
-int is_digit(char *S)
+int is_digit(char *s)
 {
 int i = 0
 while (s[i])
 {
-if (S[i] < '0' || S[i] > '9')
+if (s[i] < '0' || s[i] > '9')
 return (0);
 i++;
 }
@@ -47,7 +47,7 @@ void errors(void)
 
 /**
  * main - multiplies two positive numbers
- * @argc: number of arguments 
+ * @argc: number of arguments
  * @argv: array of arguments
  *
  * Return: always 0 (Success)
@@ -58,7 +58,7 @@ int main(int argc, char *argv[])
 	int len1, len2, len, i, carry, digit1, digit2, *result, a = 0;
 
 	s1 = argv[1], s2 = argv[2];
-	if (argc != 3 ||!is_digit(s1) || !is_digit(s2))
+	if (argc != 3 || !is_digit(s1) || !is_digit(s2))
 		errors();
 	len1 = _strlen(s1);
 	len2 = _strlen(s2);
