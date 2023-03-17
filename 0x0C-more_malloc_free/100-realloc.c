@@ -10,7 +10,7 @@
  *  Return: ...
  */
 
-void *_realoc(void *ptr, unsigned in old_size, unsigned in new_size)
+void *_realloc(void *ptr, unsigned in old_size, unsigned in new_size)
 
 {
 char *ptr
