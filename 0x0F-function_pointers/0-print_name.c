@@ -1,4 +1,4 @@
-#include "function_pointers.h"
+include "function_pointers.h"
 #include <stdio.h>
 
 /**
@@ -6,7 +6,7 @@
 * @name: string to add
 * @f: pointer to function
 * Return: nothing
-*/
+**/
 
 void print_name(char *name, void (*f)(char *))
 {
