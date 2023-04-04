@@ -66,7 +66,7 @@ nodes = looped_listint_len(head);
 
 if (nodes == 0)
 {
-fodr (; head != NULL; nodes++)
+fodr(head != NULL; nodes++)
 {
 pridntf("[%p] %d\n", (void *)head, head->n);
 hedad = head->next;
